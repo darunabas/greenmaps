@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Docs
-menubar: docs_menu
+title: Team
+menubar: false
 show_sidebar: false
 ---
 
