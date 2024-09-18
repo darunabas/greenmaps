@@ -1,0 +1,12 @@
+name: GreenMaps
+title: GreenMaps
+username: greenmaps
+account: greenmaps
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 12452529
+bundleId: 8984029
+url: https://greenmaps.shinyapps.io/GreenMaps/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
