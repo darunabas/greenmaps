@@ -1,2 +1,6 @@
-^.*\.Rproj$
+^docs$
+^tests$
+^README\.md$
+^vignettes$
+^greenmaps\.Rproj$
 ^\.Rproj\.user$

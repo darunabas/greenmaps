@@ -1,11 +1,45 @@
 Package: greenmaps
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Addressing samping biases in global plant distributions
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@R: c(person("Barnabas H.", "Daru", email= "darunabas@gmail.com", role = c("aut", "cre", "cph"), comment = c(ORCID = "0000-0002-2115-0257")),
+             person("Gross", "Collin", role = c("aut"), comment = c(ORCID = "0000-0002-0896-8476")))
+Description: Despite the importance of understanding plant distributions in 
+        ecological and conservation investigations, prevailing biases and gaps 
+        in the data can impair accurate biodiversity assessments. The recent 
+        surge in plant occurrence data, aggregated in databases like the Global 
+        Biodiversity Information Facility, has enabled large-scale biodiversity 
+        analyses. Species distribution models (SDMs) can predict plant 
+        occurrences in unsurveyed areas but often rely on biased data, 
+        leading to inaccurate estimates of plant diversity. To address this, 
+        our team developed high-resolution (10-km) native range maps for 
+        201,681 vascular plant species across the globe, using an innovative 
+        approach that integrates SDMs, dispersal rates, and natural habitats. 
+        These "GreenMaps" reveal unique patterns of plant diversity and 
+        identify cryptic hotspots that may guide future collection efforts. 
+        To make this powerful tool accessible to non-specialists, we 
+        introduce "shiny GreenMaps," an interactive web-based application. 
+        Shiny GreenMaps enables users to explore plant distributions, species 
+        richness, and endemism at various taxonomic and spatial scales without 
+        requiring advanced software knowledge. Ultimately, shiny GreenMaps will 
+        enhance macroecological research by providing dynamic, interactive maps 
+        that can guide conservation efforts, particularly in biodiversity-rich 
+        but underdocumented regions. Through shiny GreenMaps, researchers and 
+        botanical collectors can better understand and target plant diversity, 
+        overcoming the limitations of static maps and to steer targeted plant 
+        collecting in the future.
+Imports: knitcitations, shiny
+Suggests: knitr, rmarkdown, rJava
+URL: https://github.com/darunabas/greenmaps/
+BugReports: https://github.com/darunabas/greenmaps/issues
+License: AGPL-3
 Encoding: UTF-8
-LazyData: true
+RoxygenNote: 7.3.2
+biocViews: Software
+NeedsCompilation: no
+Depends: R (>= 4.0.0)
+Packaged: 2024-07-26 23:47:36 UTC; bdaru
+Author: Barnabas H. Daru [aut, cre, cph]
+    (<https://orcid.org/0000-0002-2115-0257>),
+  Collin Gross [aut] (<https://orcid.org/0000-0002-0896-8476>)
+Maintainer: Barnabas H. Daru <darunabas@gmail.com>
