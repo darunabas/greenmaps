@@ -1,4 +1,4 @@
-# GreenMaps (v0.1.0)
+# Shiny GreenMaps: addressing samping biases in global plant distributions
 
 <br><br>
 Welcome to *GreenMaps*, an application for explore plant distributions, species 
